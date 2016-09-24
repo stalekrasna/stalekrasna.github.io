@@ -1,0 +1,40 @@
+navigace: "Co děláme" # Text v navigaci
+zobrazit: true # hodnoty: true / false
+
+titulek: "Kosmetická péče"
+popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
+  - "V našem kosmetickém studiu používáme značkovou německou kosmetiku <strong>JANSSEN COSMECEUTICAL</strong>, kterou využívají přední kosmetické salóny."
+  - "Pracujeme s přípravky už několik let, a máme výborné zkušenosti. Zejména klientky s velmi citlivou pletí, která téměř nic nesnese, jsou mile překvapené, že ošetření kosmetikou Janssen jim nezpůsobuje podráždění pleti."
+  - "Kosmetické ošetření lze přizpůsobit vašim finančním možnostem a požadavkům."
+
+# jednotlive zaznamy v tabulce - obsahuji nadpis, popis a ikonu (ikonu radsi nemenit)
+zaznamy:
+  - 
+    nadpis: "Základní péče"
+    popis: "Dopřát si můžete buď základní čištění pleti, nebo celkovou péči i s masáží obličeje a dekoltu, a pletovou maskou. Čištění pleti provádíme ultrazvukem, kdy pleť není po ošetření zarudlá, a čištění nebolí."
+    icon: "fa-lock"
+
+  - 
+    nadpis: "Nadstavbová péče"
+    popis: "K základní péči nabízíme ošetření očních partií, kyslíkové ošetření, zapracování séra ultrazvukem, ošetření podrážděné pleti ozonem, atd."
+    icon: "fa-lock"
+
+  - 
+    nadpis: "Obočí a řasy"
+    popis: "Velmi využívanou doplňkovou službou je barvení obočí a řas, a také trvalá na řasy, která řasy natočí podobně jako kleště, ale řasy neničí."
+    icon: "fa-lock"
+
+  - 
+    nadpis: "Depilace"
+    popis: "Samozřejmostí je depilace teplým voskem, na kterou se mohou objednat i muži. Používáme syntetické vosky, které minimalizují podráždění pleti."
+    icon: "fa-lock"
+
+  - 
+    nadpis: "Péče o ruce"
+    popis: "Dopřát si můžete také regeneraci pokožky rukou formou parafínového zábalu po čas kosmetiky, nebo jako samostatný úkon."
+    icon: "fa-lock"
+
+  - 
+    nadpis: "Doplňková nabídka"
+    popis: "Poradíme vám s výběrem vhodné kosmetiky pro váš typ pleti, kterou si můžete u nás rovnou zakoupit. Také nabízíme dárkové poukazy, kterými můžete potěšit své blízké, a k dostání jsou i netradiční blahopřání k různým příležitostem."
+    icon: "fa-lock"

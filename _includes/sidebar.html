@@ -1,0 +1,34 @@
+<section id="sidebar">
+	<div class="inner">
+		<nav>
+			<ul>
+
+{% assign uvod = site.data.uvod %}
+{% if uvod.zobrazit %}
+  <li><a href="#uvod" title="{{ uvod.navigace }}">{{ uvod.navigace }}</a></li>
+{% endif %}
+
+{% assign kdo = site.data.kdo-jsme %}
+{% if kdo.zobrazit %}
+  <li><a href="#kdo-jsme" title="{{ kdo.navigace }}">{{ kdo.navigace }}</a></li>
+{% endif %}
+
+{% assign co = site.data.co-delame %}
+{% if co.zobrazit %}
+  <li><a href="#co-delame" title="{{ co.navigace }}">{{ co.navigace }}</a></li>
+{% endif %}
+
+{% assign cenik = site.data.cenik %}
+{% if cenik.zobrazit %}
+  <li><a href="#cenik" title="{{ cenik.navigace }}">{{ cenik.navigace }}</a></li>
+{% endif %}
+
+{% assign kontakty = site.data.kontakty %}
+{% if kontakty.zobrazit %}
+  <li><a href="#kontakty" title="{{ kontakty.navigace }}">{{ kontakty.navigace }}</a></li>
+{% endif %}
+
+			</ul>
+		</nav>
+	</div>
+</section>

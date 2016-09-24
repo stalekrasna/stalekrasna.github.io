@@ -1,0 +1,170 @@
+---
+layout: default
+---
+
+{% assign styleNumber = 1 %}
+
+{% assign akce = site.data.akce %}
+{% assign uvod = site.data.uvod %}
+{% if uvod.zobrazit %}
+  <!-- Uvod -->
+  <section id="uvod" class="wrapper style{{ styleNumber }} fullscreen fade-up">
+    <div class="inner">
+      <h1>{{ uvod.titulek }}</h1>
+      <p>{{ uvod.popis }}</p>
+      {% if akce.zobrazit %}
+        <p><b>{{ akce.nazev }}</b></p>
+      {% endif %}
+    </div>
+  </section>
+
+  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+{% endif %}
+
+{% assign kdo = site.data.kdo-jsme %}
+{% if kdo.zobrazit %}
+  <!-- Kdo jsme -->
+  <section id="kdo-jsme" class="wrapper style{{ styleNumber }} spotlights">
+    <div class="inner">
+      <h2>{{ kdo.titulek }}</h2>
+      {% for popisek in kdo.popisky %}
+        <p>{{ popisek }}</p>
+      {% endfor %}
+      <div class="box alt">
+        <div class="row uniform">
+          {% assign pictureCount = 1 %}
+          {% for obrazek in kdo.obrazky %}
+            <div class="4u{% if pictureCount == 3%}${% endif %}">
+              <span class="image fit">
+                <a href="{{ obrazek.url }}" data-lightbox="kdo-jsme" data-title="{{ obrazek.titulek }}">
+                  <img src="{{ obrazek.smallUrl }}" alt="" />
+                </a>
+                {% if obrazek.titulek %}
+                <span>{{ obrazek.titulek }}</span>
+                {% endif %}
+              </span>
+            </div>
+            {% assign pictureCount = pictureCount | modulo: 3 | plus: 1 %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+{% endif %}
+
+{% assign co = site.data.co-delame %}
+{% if co.zobrazit %}
+  <!-- Co delame -->
+  <section id="co-delame" class="wrapper style{{ styleNumber }} fade-up">
+    <div class="inner">
+      <h2>{{ co.titulek }}</h2>
+      {% for popisek in co.popisky %}
+        <p>{{ popisek }}</p>
+      {% endfor %}
+
+      <div class="features">
+        {% for zaznam in co.zaznamy %}
+          <section>
+            <!-- <span class="icon major {{ zaznam.icon }}"></span> -->
+            <h3>{{ zaznam.nadpis }}</h3>
+            <p>{{ zaznam.popis }}</p>
+          </section>
+        {% endfor %}
+      </div>
+
+    </div>
+  </section>
+  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+{% endif %}
+
+{% assign cenik = site.data.cenik %}
+{% if cenik.zobrazit %}
+  <!-- Ceník -->
+<section id="cenik" class="wrapper style{{ styleNumber }} fade-up">
+  <div class="inner">
+    <h2>{{ cenik.titulek }}</h2>
+    <p>{{ cenik.popis }}</p>
+
+    {% if akce.zobrazit %}
+      <p><b>{{ akce.nazev }}</b></p>
+    {% endif %}
+
+    <div id="table-price" class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            {% for sloupec in cenik.sloupce %}
+              <th>{{ sloupec }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+        <tbody>
+          {% for zaznam in cenik.zaznamy %}
+          <tr>
+            {% if zaznam.cena %}
+              <td>{{ zaznam.nazev }}</td>
+              <td class="shrink">{{ zaznam.cena }}</td>
+            {% else %}
+              <th class="subheader" colspan="2">{{ zaznam.nazev }}</td>
+            {% endif %}
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    <a id="toggle-price" class="button">Zobrazit</a>
+  </div>
+  
+  </section>
+  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+{% endif %}
+
+{% assign kontakty = site.data.kontakty %}
+{% if kontakty.zobrazit %}
+<section id="kontakty" class="wrapper style{{ styleNumber }} fade-up">
+  <div class="inner">
+    <h2>{{ kontakty.titulek }}</h2>
+    <p>{{ kontakty.popis }}</p>
+    <div class="split style1">
+      <section>
+        <div id="googleMap"></div>
+      </section>
+      <section>
+        <ul class="contact">
+          <li>
+            <h3>Adresa</h3>
+            <span>{{ kontakty.adresa }}</span>
+          </li>
+          <li>
+            <h3>Otevírací doba</h3>
+            <span>{{ kontakty.oteviraci-doba }}</span>
+          </li>
+          <li>
+            <h3>Email</h3>
+            <a href="mailto:{{ kontakty.email }}">{{ kontakty.email }}</a>
+          </li>
+          <li>
+            <h3>Telefon</h3>
+            <span>{{ kontakty.telefon }}</span>
+          </li>
+          <li>
+            <h3>Sociální služby</h3>
+            <ul class="icons">
+              {% if kontakty.facebook %}
+                <li><a href="{{ kontakty.facebook }}" class="fa-facebook"><span class="label">Facebook</span></a></li>
+              {% endif %}
+              {% if kontakty.twitter %}
+                <li><a href="{{ kontakty.twitter }}" class="fa-twitter"><span class="label">Twitter</span></a></li>
+              {% endif %}
+              {% if kontakty.instagram %}
+                <li><a href="{{ kontakty.instagram }}" class="fa-instagram"><span class="label">Instagram</span></a></li>
+              {% endif %}
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</section>
+{% endif %}

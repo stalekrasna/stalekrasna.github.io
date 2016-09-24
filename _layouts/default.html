@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+  Hyperspace by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <!-- Sidebar -->
+      {% include sidebar.html %}
+
+    <!-- Wrapper -->
+      <div id="wrapper">
+        {{ content }}
+      </div>
+
+    <!-- Footer -->
+      {% include footer.html %}
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrollex.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/skel.min.js"></script>
+    <script src="js/util.js"></script>
+    <!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+    <script src="js/main.js"/></script>
+
+    <script type="text/javascript">
+          
+
+    {% assign map = site.data.kontakty.map %}
+      function initMap() {
+        var mapProp = {
+          center: new google.maps.LatLng({{ map.latitude }}, {{ map.longitude }}),
+          zoom: {{ map.zoom }},
+          scrollwheel: false,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var marker=new google.maps.Marker({
+          position:mapProp.center,
+        });
+
+        var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+        marker.setMap(map);
+      }
+    </script>
+
+    <script src="js/lightbox.js"></script>
+
+  </body>
+
+</html>

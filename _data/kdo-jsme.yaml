@@ -1,0 +1,26 @@
+navigace: "Kdo jsme" # Text v navigaci
+zobrazit: true # hodnoty: true / false
+
+# Jednotlive zaznamy - kazdy zaznam obsahuje obrazek, nadpis a popis
+
+titulek: "Kdo jsme"
+popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
+  - "Jsme kosmetičky s dlouholetou praxí, v oboru se pohybujeme více jak 20 let. Naše zkušenosti se snažíme předávat právě Vám, našim klientům.<br />Neustále se snažíme vzdělávat se, a doplňovat si nejen informace, ale také učit se nové techniky, na nejrůznějších kurzech a seminářích.<br />Také se snažíme vylepšovat naše studio, abyste se při ošetření cítili co nejpohodlněji.                  Několik sezon máme v letních měsících klimatizováno, v zimních měsících zase nabízíme lehátka s vyhříváním.                                                                                                                                                        Nyní jsme nechali odhlučnit dveře, aby vás hluk z chodby při ošetření nerušil."
+  - "Přijďte relaxovat!"
+
+obrazky:
+  - 
+    titulek: "Iveta"
+    smallUrl: "images/iveta-small.jpg"
+    url: "images/iveta-full.jpg"
+
+  - 
+    titulek: "Soňa"
+    smallUrl: "images/sona-small.jpg"
+    url: "images/sona-full.jpg"
+
+  - 
+    titulek: "Studio"
+    smallUrl: "images/studio-small.jpg"
+    url: "images/studio-full.jpg"
+

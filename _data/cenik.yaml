@@ -1,0 +1,206 @@
+navigace: "Ceník" # Text v navigaci
+zobrazit: true # hodnoty: true / false
+
+titulek: "Ceník"
+popis: "Konečná cena za ošetření je proměnlivá, protože je složena z jednotlivých úkonů, které mohou být při každém ošetření odlišné." # popis pod titulkem nad tabulkou
+
+sloupce:
+  - "Úkon"
+  - "Cena"
+zaznamy:
+  - 
+    nazev: "Odlíčení velké"
+    cena: "55,-"
+  - 
+    nazev: "Odlíčení malé"
+    cena: "35,-"
+  - 
+    nazev: "Líčení"
+    cena: "od 150,-"
+  - 
+    nazev: "Peeling"
+    cena: "80,-"
+  - 
+    nazev: "Aplikace ampulky nebo séra"
+    cena: "60,-"
+  - 
+    nazev: "Závěrečné ošetření pleti"
+    cena: "45,-"
+  - 
+    nazev: "Přístroj Maig, 1 úkon"
+    cena: "130,-"
+  - 
+    nazev: "Kyslíková mezoterapie"
+    cena: "240,-"
+  - 
+    nazev: "Parafínové ošetření rukou"
+    cena: "90,-"
+  - 
+    nazev: "Úprava obočí při kosmetice/samostatně"
+  - 
+    nazev: "5min"
+    cena: "50,-/70,-"
+  - 
+    nazev: "10min"
+    cena: "70,-/95,-"
+  - 
+    nazev: "15min"
+    cena: "95,-/120,-"
+  - 
+    nazev: "20min"
+    cena: "120,-/145,-"
+  - 
+    nazev: "25min"
+    cena: "140,-/170,-"
+  - 
+    nazev: "Použití vosku"
+    cena: "30,-"
+  - 
+    nazev: "Hluboké čištění pleti"
+  - 
+    nazev: "5min"
+    cena: "80,-"
+  - 
+    nazev: "10min"
+    cena: "105,-"
+  - 
+    nazev: "15min"
+    cena: "140,-"
+  - 
+    nazev: "20min"
+    cena: "180,-"
+  - 
+    nazev: "25min"
+    cena: "200,-"
+  - 
+    nazev: "Masáže"
+  - 
+    nazev: "Obličeje a krku"
+    cena: "185,-"
+  - 
+    nazev: "Obličeje, krku a dekoltu"
+    cena: "235,-"
+  - 
+    nazev: "Aplikace masky"
+  - 
+    nazev: "Krémová"
+    cena: "170,-"
+  - 
+    nazev: "Krémová bez dekoltu"
+    cena: "150,-"
+  - 
+    nazev: "Pudrová"
+    cena: "235,-"
+  - 
+    nazev: "Pudrová bez dekoltu"
+    cena: "215,-"
+  - 
+    nazev: "Kolagenová"
+    cena: "365,-"
+  - 
+    nazev: "Kolagenová bez dekoltu"
+    cena: "345,-"
+  - 
+    nazev: "Ošetření očí"
+  - 
+    nazev: "Masáž při kosmetice"
+    cena: "60,-"
+  - 
+    nazev: "Maska při kosmetice"
+    cena: "90,-"
+  - 
+    nazev: "Mikromasáž"
+    cena: "130,-"
+  - 
+    nazev: "Barvení"
+  - 
+    nazev: "Řasy při trvalé"
+    cena: "90,-"
+  - 
+    nazev: "Řasy a obočí při kosmetice"
+    cena: "90,-"
+  - 
+    nazev: "Řasy a obočí samostatně, 1 úkon"
+    cena: "130,-"
+  - 
+    nazev: "Řasy a obočí samostatně, 2 úkony"
+    cena: "220,-"
+  - 
+    nazev: "Trvalá na řasy"
+    cena: "420,-"
+  - 
+    nazev: "Ošetření zad"
+  - 
+    nazev: "Očištění a použití tonika"
+    cena: "80,-"
+  - 
+    nazev: "Enzymatický peeling"
+    cena: "120,-"
+  - 
+    nazev: "Aplikace masky na celá záda"
+    cena: "210,-"
+  - 
+    nazev: "Aplikace masky na polovinu zad"
+    cena: "175,-"
+  - 
+    nazev: "Aplikace séra"
+    cena: "80,-"
+  - 
+    nazev: "Depilace"
+  - 
+    nazev: "Horní ret či brada při ošetření"
+    cena: "70,-"
+  - 
+    nazev: "Horní ret či brada samostatně"
+    cena: "85,-"
+  - 
+    nazev: "Horní ret a brada při ošetření"
+    cena: "105,-"
+  - 
+    nazev: "Horní ret a brada samostatně"
+    cena: "140,-"
+  - 
+    nazev: "Horní ret, brada a tváře"
+    cena: "220,-"
+  - 
+    nazev: "Tváře při ošetření"
+    cena: "115,-"
+  - 
+    nazev: "Tváře samostatně"
+    cena: "140,-"
+  - 
+    nazev: "Podpaží"
+    cena: "140,-"
+  - 
+    nazev: "Třísla - malá část"
+    cena: "160,-"
+  - 
+    nazev: "Třísla - velká část"
+    cena: "220,-"
+  - 
+    nazev: "Nohy po kolena"
+    cena: "240,-"
+  - 
+    nazev: "Nohy celé"
+    cena: "500,-"
+  - 
+    nazev: "Stehna"
+    cena: "320,-"
+  - 
+    nazev: "Zadní část stehen"
+    cena: "120,- až 160,-"
+  - 
+    nazev: "Hýždě"
+    cena: "150,-"
+  - 
+    nazev: "Ruce celé"
+    cena: "400,-"
+  - 
+    nazev: "Předloktí"
+    cena: "200,-"
+  - 
+    nazev: "Záda"
+    cena: "500,-"
+  - 
+    nazev: "Hrudník"
+    cena: "250,-"

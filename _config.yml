@@ -1,0 +1,32 @@
+# Nastavení stránky
+titulek: "Kosmetické studio STÁLE KRÁSNÁ"
+popis: "Kosmetické studio STÁLE KRÁSNÁ nabízí svým klientům péči o pleť, masáže, úpravu obočí, řas, depilaci, ošetření zad a mnoho dalšího. Naleznete ho uvnitř plaveckého areálu Podolí, Praha 4."
+klicovaSlova: "kosmetické studio, kosmetické studio Praha, kosmetika, péče o pleť, masáže, úprava obočí, depilace, ošetření zad"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### NEMENIT ################## 
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+
+url: "http://www.stalekrasna.cz" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

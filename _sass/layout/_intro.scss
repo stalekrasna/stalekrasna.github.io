@@ -1,0 +1,36 @@
+///
+/// Hyperspace by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Uvod */
+
+	#uvod {
+		background-attachment: fixed;
+		background-image: url('../images/bg.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+		p {
+			font-size: 1.25em;
+
+			@include breakpoint(medium) {
+				br {
+					display: none;
+				}
+			}
+
+			@include breakpoint(small) {
+				font-size: 1em;
+			}
+		}
+
+		@include breakpoint(large) {
+			background-attachment: scroll;
+		}
+	}
