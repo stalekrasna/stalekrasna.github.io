@@ -1,3 +1,8 @@
 zobrazit: false # hodnoty: true / false
 
 nazev: "Akce: Stále krásná - Tento tyden 50% sleva na rasy!"
+
+
+# akce na facebooku
+akce-naleznete: "Veškeré novinky, akční nabídky a slevové akce naleznete na našich "
+na-facebooku: "facebookových stránkách."

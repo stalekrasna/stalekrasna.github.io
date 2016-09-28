@@ -6,6 +6,7 @@ layout: default
 
 {% assign akce = site.data.akce %}
 {% assign uvod = site.data.uvod %}
+{% assign kontakty = site.data.kontakty %}
 {% if uvod.zobrazit %}
   <!-- Uvod -->
   <section id="uvod" class="wrapper style{{ styleNumber }} fullscreen fade-up">
@@ -13,7 +14,18 @@ layout: default
       <h1>{{ uvod.titulek }}</h1>
       <p>{{ uvod.popis }}</p>
       {% if akce.zobrazit %}
-        <p><b>{{ akce.nazev }}</b></p>
+        <p><strong>{{ akce.nazev }}</strong></p>
+      {% endif %}
+      {% if akce.akce-naleznete and akce.na-facebooku %}
+        <p><strong>{{ akce.akce-naleznete }}
+          {% if kontakty.facebook %}
+          <a href="{{ kontakty.facebook }}">
+          {% endif %}
+            {{ akce.na-facebooku }}
+          {% if kontakty.facebook %}
+          </a>
+          {% endif %}
+        </strong></p>
       {% endif %}
     </div>
   </section>
@@ -87,7 +99,18 @@ layout: default
     <p>{{ cenik.popis }}</p>
 
     {% if akce.zobrazit %}
-      <p><b>{{ akce.nazev }}</b></p>
+      <p><strong>{{ akce.nazev }}</strong></p>
+    {% endif %}
+    {% if akce.akce-naleznete and akce.na-facebooku %}
+      <p><strong>{{ akce.akce-naleznete }}
+        {% if kontakty.facebook %}
+        <a href="{{ kontakty.facebook }}">
+        {% endif %}
+          {{ akce.na-facebooku }}
+        {% if kontakty.facebook %}
+        </a>
+        {% endif %}
+      </strong></p>
     {% endif %}
 
     <div id="table-price" class="table-wrapper">
