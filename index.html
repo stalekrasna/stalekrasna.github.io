@@ -17,7 +17,7 @@ layout: default
         <p><strong>{{ akce.nazev }}</strong></p>
       {% endif %}
       {% if akce.akce-naleznete and akce.na-facebooku %}
-        <p><strong>{{ akce.akce-naleznete }}
+        <p>{{ akce.akce-naleznete }}
           {% if kontakty.facebook %}
           <a href="{{ kontakty.facebook }}">
           {% endif %}
@@ -25,7 +25,7 @@ layout: default
           {% if kontakty.facebook %}
           </a>
           {% endif %}
-        </strong></p>
+        </p>
       {% endif %}
     </div>
   </section>
