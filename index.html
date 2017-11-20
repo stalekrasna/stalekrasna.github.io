@@ -33,10 +33,41 @@ layout: default
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
+{% assign aktuality = site.data.aktuality %}
+{% if aktuality.zobrazit %}
+  <!-- Aktuality -->
+  <section id="aktuality" class="wrapper style{{ styleNumber }} fade-up">
+    <div class="inner">
+      <h2>{{ aktuality.titulek }}</h2>
+      {% for popisek in aktuality.popisky %}
+        <p>{{ popisek }}</p>
+      {% endfor %}
+
+      <!-- Nabidka -->
+      <h3>Nabízíme:</h3>
+      {% for nabidka in aktuality.nabidky %}
+      <strong>{{ nabidka.nazev }}</strong></br>
+      {{ nabidka.popis }}</br>
+      <i>Cena {{ nabidka.cena }},-</i>
+      <hr>
+      {% endfor %}
+
+      <!-- Info -->
+
+      {% for motivace in aktuality.motivace %}
+      <b>{{ motivace }}</b><br>
+      {% endfor %}
+      
+    </div>
+  </section>
+
+  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+{% endif %}
+
 {% assign kdo = site.data.kdo-jsme %}
 {% if kdo.zobrazit %}
   <!-- Kdo jsme -->
-  <section id="kdo-jsme" class="wrapper style{{ styleNumber }} spotlights">
+  <section id="kdo-jsme" class="wrapper style{{ styleNumber }} fade-up">
     <div class="inner">
       <h2>{{ kdo.titulek }}</h2>
       {% for popisek in kdo.popisky %}

@@ -8,6 +8,11 @@
   <li><a href="#uvod" title="{{ uvod.navigace }}">{{ uvod.navigace }}</a></li>
 {% endif %}
 
+{% assign aktuality = site.data.aktuality %}
+{% if aktuality.zobrazit %}
+  <li><a href="#aktuality" title="{{ aktuality.navigace }}">{{ aktuality.navigace }}</a></li>
+{% endif %}
+
 {% assign kdo = site.data.kdo-jsme %}
 {% if kdo.zobrazit %}
   <li><a href="#kdo-jsme" title="{{ kdo.navigace }}">{{ kdo.navigace }}</a></li>
