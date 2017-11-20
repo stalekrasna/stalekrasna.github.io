@@ -204,3 +204,15 @@ zaznamy:
   - 
     nazev: "Hrudník"
     cena: "250,-"
+  -
+    nazev: "Chemický peeling - 1 ošetření"
+    cena: "800,-"
+  - 
+    nazev: "Diamantová dermabraze"
+    cena: "1150-1350,-"
+  - 
+    nazev: "Mezoterapie - 1 ošetření"
+    cena: "2000,-"
+  -
+    nazev: "Thermolift - 1 ošetření"
+    cena: "2000,-"
