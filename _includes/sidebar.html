@@ -5,32 +5,32 @@
 
 {% assign uvod = site.data.uvod %}
 {% if uvod.zobrazit %}
-  <li><a href="#uvod" title="{{ uvod.navigace }}">{{ uvod.navigace }}</a></li>
+  	<li><a href="{{ include.rootPath }}#uvod" title="{{ uvod.navigace }}">{{ uvod.navigace }}</a></li>
 {% endif %}
 
 {% assign aktuality = site.data.aktuality %}
 {% if aktuality.zobrazit %}
-  <li><a href="#aktuality" title="{{ aktuality.navigace }}">{{ aktuality.navigace }}</a></li>
+  <li><a href="{{ include.rootPath }}#aktuality" title="{{ aktuality.navigace }}">{{ aktuality.navigace }}</a></li>
 {% endif %}
 
 {% assign kdo = site.data.kdo-jsme %}
 {% if kdo.zobrazit %}
-  <li><a href="#kdo-jsme" title="{{ kdo.navigace }}">{{ kdo.navigace }}</a></li>
+  <li><a href="{{ include.rootPath }}#kdo-jsme" title="{{ kdo.navigace }}">{{ kdo.navigace }}</a></li>
 {% endif %}
 
 {% assign co = site.data.co-delame %}
 {% if co.zobrazit %}
-  <li><a href="#co-delame" title="{{ co.navigace }}">{{ co.navigace }}</a></li>
+  <li><a href="{{ include.rootPath }}#co-delame" title="{{ co.navigace }}">{{ co.navigace }}</a></li>
 {% endif %}
 
 {% assign cenik = site.data.cenik %}
 {% if cenik.zobrazit %}
-  <li><a href="#cenik" title="{{ cenik.navigace }}">{{ cenik.navigace }}</a></li>
+  <li><a href="{{ include.rootPath }}#cenik" title="{{ cenik.navigace }}">{{ cenik.navigace }}</a></li>
 {% endif %}
 
 {% assign kontakty = site.data.kontakty %}
 {% if kontakty.zobrazit %}
-  <li><a href="#kontakty" title="{{ kontakty.navigace }}">{{ kontakty.navigace }}</a></li>
+  <li><a href="{{ include.rootPath }}#kontakty" title="{{ kontakty.navigace }}">{{ kontakty.navigace }}</a></li>
 {% endif %}
 
 			</ul>

@@ -74,9 +74,9 @@
 			position: relative;
 			padding-bottom: 0.35em;
 
-			&:after {
-				@include vendor('background-image', 'linear-gradient(to right, #{_palette(accent1)}, #{_palette(accent3)})');
+			&:after { 
 				@include vendor('transition', 'max-width #{_duration(transition)} ease');
+				background: _palette(fg);
 				border-radius: 0.2em;
 				bottom: 0;
 				content: '';
@@ -85,6 +85,14 @@
 				right: 0;
 				width: 100%;
 			}
+		}
+	}
+
+	span {
+		&.subtitle {
+			display: block;
+			font-size: 0.4em;
+			color: _palette(fg-hex);
 		}
 	}
 

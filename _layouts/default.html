@@ -12,7 +12,7 @@
   <body>
 
     <!-- Sidebar -->
-      {% include sidebar.html %}
+      {% include sidebar.html rootPath="" %}
 
     <!-- Wrapper -->
       <div id="wrapper">
@@ -23,17 +23,9 @@
       {% include footer.html %}
 
     <!-- Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.scrollex.min.js"></script>
-    <script src="js/jquery.scrolly.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/util.js"></script>
-    <!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
-    <script src="js/main.js"/></script>
+    {% include scripts.html %}
 
     <script type="text/javascript">
-          
-
     {% assign map = site.data.kontakty.map %}
       function initMap() {
         var mapProp = {
@@ -49,9 +41,15 @@
         var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
         marker.setMap(map);
       }
-    </script>
 
-    <script src="js/lightbox.js"></script>
+      function loadMaps() {
+        var script = document.createElement("script");
+        script.src = "https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyAT_EziWfcboqHmzuDWi0d0yOkEL58-apA";
+        document.body.appendChild(script);
+      }
+
+      window.onload = loadMaps
+    </script>
 
   </body>
 

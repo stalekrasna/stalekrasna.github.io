@@ -223,11 +223,3 @@
 	});
 
 })(jQuery);
-
-function loadMaps() {
-        var script = document.createElement("script");
-        script.src = "https://maps.googleapis.com/maps/api/js?callback=initMap&key=AIzaSyAT_EziWfcboqHmzuDWi0d0yOkEL58-apA";
-        document.body.appendChild(script);
-      }
-
-window.onload = loadMaps

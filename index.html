@@ -4,11 +4,11 @@ layout: default
 
 {% assign styleNumber = 1 %}
 
+<!-- Uvod -->
 {% assign akce = site.data.akce %}
 {% assign uvod = site.data.uvod %}
 {% assign kontakty = site.data.kontakty %}
 {% if uvod.zobrazit %}
-  <!-- Uvod -->
   <section id="uvod" class="wrapper style{{ styleNumber }} fullscreen fade-up">
     <div class="inner">
       <h1>{{ uvod.titulek }}</h1>
@@ -33,9 +33,9 @@ layout: default
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
+<!-- Aktuality -->
 {% assign aktuality = site.data.aktuality %}
 {% if aktuality.zobrazit %}
-  <!-- Aktuality -->
   <section id="aktuality" class="wrapper style{{ styleNumber }} fade-up">
     <div class="inner">
       <h2>{{ aktuality.titulek }}</h2>
@@ -64,9 +64,9 @@ layout: default
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
+<!-- Kdo jsme -->
 {% assign kdo = site.data.kdo-jsme %}
 {% if kdo.zobrazit %}
-  <!-- Kdo jsme -->
   <section id="kdo-jsme" class="wrapper style{{ styleNumber }} fade-up">
     <div class="inner">
       <h2>{{ kdo.titulek }}</h2>
@@ -96,9 +96,9 @@ layout: default
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
+<!-- Co delame -->
 {% assign co = site.data.co-delame %}
 {% if co.zobrazit %}
-  <!-- Co delame -->
   <section id="co-delame" class="wrapper style{{ styleNumber }} fade-up">
     <div class="inner">
       <h2>{{ co.titulek }}</h2>
@@ -120,9 +120,9 @@ layout: default
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
+<!-- Ceník -->
 {% assign cenik = site.data.cenik %}
 {% if cenik.zobrazit %}
-  <!-- Ceník -->
 <section id="cenik" class="wrapper style{{ styleNumber }} fade-up">
   <div class="inner">
     <h2>{{ cenik.titulek }}</h2>
@@ -173,6 +173,7 @@ layout: default
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
+<!-- Kontakty -->
 {% assign kontakty = site.data.kontakty %}
 {% if kontakty.zobrazit %}
 <section id="kontakty" class="wrapper style{{ styleNumber }} fade-up">
