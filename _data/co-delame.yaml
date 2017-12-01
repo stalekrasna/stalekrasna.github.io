@@ -16,9 +16,9 @@ zaznamy:
   - 
     nadpis: "NOVINKY"
     popis: "Diamantová dermabraze…<a href='diamantova-dermabraze'>více zde</a><br>
-            Mezoterapie / microneedling…více zde<br>
+            Mezoterapie / microneedling…<a href='mezoterapie'>více zde</a><br>
             Thermolift / radiofrekvence…více zde<br>
-            Chemický peeling…více zde"
+            Chemický peeling…<a href='chemicky-peeling'>více zde</a>"
 
   - 
     nadpis: "Obočí a řasy"

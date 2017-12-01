@@ -20,7 +20,9 @@
 	    <div class="inner">
       	  <h1 class="major">
       	  	{{ page.title }}
-      	  	<span class="subtitle">{{ page.subtitle }}</span>
+      	  	{% if page.subtitle %}
+            <span class="subtitle">{{ page.subtitle }}</span>
+            {% endif %}
       	  </h1>
 
 	      {{ content }}
