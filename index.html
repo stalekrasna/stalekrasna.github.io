@@ -47,7 +47,12 @@ permalink: "/"
       <!-- Nabidka -->
       <h3>Nabízíme:</h3>
       {% for nabidka in aktuality.nabidky %}
-      <strong>{{ nabidka.nazev }}</strong></br>
+
+      <strong>
+        {% if nabidka.odkaz-stranka %}<a href="{{ nabidka.odkaz-stranka }}">{% endif %}
+          {{ nabidka.nazev }}
+        {% if nabidka.odkaz-stranka %}</a>{% endif %}
+      </strong></br>
       {{ nabidka.popis }}</br>
       <i>Cena {{ nabidka.cena }},-</i>
       <hr>
@@ -58,7 +63,7 @@ permalink: "/"
       {% for motivace in aktuality.motivace %}
       <b>{{ motivace }}</b><br>
       {% endfor %}
-      
+
     </div>
   </section>
 
@@ -169,7 +174,7 @@ permalink: "/"
     </div>
     <a id="toggle-price" class="button">Zobrazit</a>
   </div>
-  
+
   </section>
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}

@@ -1,24 +1,27 @@
-navigace: "Aktuality" # Text v navigaci
+navigace: "Aktuální pro podzim zimu" # Text v navigaci
 zobrazit: true # hodnoty: true / false
 
-titulek: "Aktuality"
+titulek: "Aktuální pro podzim zimu"
 popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
-  - "Podzim a zima je ideální čas na chemický peeling a mezoteripii! Kupte si <strong>výhodné permanentky</strong>!"
+  - "je intenzivní regenerační péče, bělení a projasnění pleti, zpevnění kontur obličeje."
 
 nabidky:
   -
-    nazev: "Chemický peeling 5+1 zdarma"
-    popis: "Při zakoupení permanentky na 5 ošetření získáte 6. ošetření zdarma!"
-    cena: "4000"
-  -
-    nazev: "Mezoterapie "
+    nazev: "Mezoterapie"
+    odkaz-stranka: "mezoterapie"
     popis: "Při zakoupení permanentky na 3 ošetření získáte slevu 1000,- Kč"
     cena: "5000"
   -
-    nazev: "Thermolift 4+1 zdarma"
+    nazev: "Chemický peeling 5+1 zdarma"
+    odkaz-stranka: "chemicky-peeling"
+    popis: "Při zakoupení permanentky na 5 ošetření získáte 6. ošetření zdarma!"
+    cena: "4000"
+  -
+    nazev: "Radiofrekvenční lifting"
+    odkaz-stranka: "radiofrekvence"
     popis: "Při zakoupení permanentky na 4 ošetření získáváte 5. ošetření zdarma!"
     cena: "8000"
 
-motivace:
-  - "Nejen tyto výhodné balíčky, ale i jakékoliv ošetření můžete také věnovat někomu blízkému jako DÁREK!"
-  - "Každou ženu trocha rozmazlování na kosmetice vždycky potěší."
+# motivace:
+  #- "Nejen tyto výhodné balíčky, ale i jakékoliv ošetření můžete také věnovat někomu blízkému jako DÁREK!"
+  #- "Každou ženu trocha rozmazlování na kosmetice vždycky potěší."

@@ -9,29 +9,33 @@ popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku
 
 # jednotlive zaznamy v tabulce - obsahuji nadpis, popis a ikonu (ikonu radsi nemenit)
 zaznamy:
-  - 
+  -
     nadpis: "Základní péče"
-    popis: "Dopřát si můžete čištění pleti ultrazvukovou špachtlí, které nebolí, ani pleť nepodráždí. Doplňujeme ho dle potřeby iontoforézou. Nebo celkovou péči i s masáží obličeje a dekoltu, oboje doplněno o pleťovou maskou. Masky máme v nabídce gelové, krémové, textilní, alginátové a kolagenové."
-  
-  - 
-    nadpis: "NOVINKY"
-    popis: "Diamantová dermabraze…<a href='diamantova-dermabraze'>více zde</a><br>
-            Mezoterapie / microneedling…<a href='mezoterapie'>více zde</a><br>
-            Thermolift / radiofrekvence…více zde<br>
-            Chemický peeling…<a href='chemicky-peeling'>více zde</a>"
+    popis: "Dopřát si můžete čištění pleti ultrazvukovou špachtlí, které nebolí, ani pleť nepodráždí.<br>
+    Pak tzv. celkovou péči, kdy čištění pleti doplníme kosmetickou masáží dekoltu, krku a obličeje. Případně i mikromasáží očního okolí.<br>
+    Nebo zkuste diamantovou dermabrazi. Jde o mechanický peeling s použitím přístroje, kdy pleť obrušujeme nástavci pokrytými diamantovou drtí, a za pomocí vakuového sání dochází  k odsávání odumřelých kožních buněk. a také k aktivaci lymfatického systému. Diamantová dermabraze  nastartuje růst nových a elastických buněk. Ošetření je zcela bezbolestné a výsledky jsou viditelné již po prvním sezení. Pokožka  je hladší a pružnější, zmenšuje se viditelnost pórů.<br>
+    Aplikace a přístrojové zapracování vhodného séra je samozřejmostí při každém ošetření.<br>
+    Na závěr nebo v průběhu ošetření aplikujeme pleťovou masku, nebo s ní provedeme kosmetickou masáž. Masky používáme gelové, krémové, textilní, alginátové a kolagenové pláty.
+"
 
-  - 
+  -
     nadpis: "Obočí a řasy"
-    popis: "Velmi využívanou doplňkovou službou je barvení obočí a řas, a také trvalá na řasy, která řasy natočí podobně jako kleště, ale řasy neničí."
+    popis: "Velmi využívanou doplňkovou službou je barvení obočí a řas, a také trvalá na řasy, která řasy natočí podobně jako kleště, ale řasy neničí.<br>
+    V nabídce máme růstové sérum na řasy HAIRPLUS , které během 6 až 8 týdnu prodlouží  řasy až o 40–45 % jejich původní délky.<br>
+    Bio peptidy, a vitaminy A,C,D obsažené v HAIRPLUS posilují strukturu Vašich řas a obočí a snižují jejich vypadávání. Ženšenový výtažek způsobuje prokrvení folikulu řas, obočí a pokožky, která je obklopuje. Lepší zásobování živinami navíc umožnuje maximalizovat růstový potenciál Vašich vlasových folikul řas či obočí. Panthenol, výtažky z květu a ovoce jsou další složky HAIRPLUS, které folikuly oživují.
+    "
 
-  - 
+  -
+    nadpis: "NOVINKY"
+    popis: "Domiderm…<a href='domiderm'>více zde</a><br>"
+
+  -
     nadpis: "Depilace"
     popis: "Samozřejmostí je depilace teplým voskem, na kterou se mohou objednat i muži. Používáme syntetické vosky, které minimalizují podráždění pleti."
 
-  - 
-    nadpis: "Péče o ruce"
-    popis: "Dopřát si můžete také regeneraci pokožky rukou formou parafínového zábalu po čas kosmetiky, nebo jako samostatný úkon."
-
-  - 
+  -
     nadpis: "Doplňková nabídka"
     popis: "Poradíme vám s výběrem vhodné kosmetiky pro váš typ pleti, kterou si můžete u nás rovnou zakoupit. Také nabízíme dárkové poukazy, kterými můžete potěšit své blízké, a k dostání jsou i netradiční blahopřání k různým příležitostem."
+  -
+    nadpis: ""
+    popis: ""
