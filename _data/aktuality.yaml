@@ -10,17 +10,17 @@ nabidky:
     nazev: "Mezoterapie"
     odkaz-stranka: "mezoterapie"
     popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži."
-    cena: "5000"
+    cena: "2000"
   -
     nazev: "Chemický peeling"
     odkaz-stranka: "chemicky-peeling"
     popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny…"
-    cena: "4000"
+    cena: "800"
   -
     nazev: "Radiofrekvenční lifting"
     odkaz-stranka: "radiofrekvence"
     popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení."
-    cena: "8000"
+    cena: "1500"
 
 # motivace:
   #- "Nejen tyto výhodné balíčky, ale i jakékoliv ošetření můžete také věnovat někomu blízkému jako DÁREK!"
