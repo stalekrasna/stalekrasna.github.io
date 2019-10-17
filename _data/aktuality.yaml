@@ -9,17 +9,17 @@ nabidky:
   -
     nazev: "Mezoterapie"
     odkaz-stranka: "mezoterapie"
-    popis: "Při zakoupení permanentky na 3 ošetření získáte slevu 1000,- Kč"
+    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži."
     cena: "5000"
   -
-    nazev: "Chemický peeling 5+1 zdarma"
+    nazev: "Chemický peeling"
     odkaz-stranka: "chemicky-peeling"
-    popis: "Při zakoupení permanentky na 5 ošetření získáte 6. ošetření zdarma!"
+    popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny…"
     cena: "4000"
   -
     nazev: "Radiofrekvenční lifting"
     odkaz-stranka: "radiofrekvence"
-    popis: "Při zakoupení permanentky na 4 ošetření získáváte 5. ošetření zdarma!"
+    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení."
     cena: "8000"
 
 # motivace:

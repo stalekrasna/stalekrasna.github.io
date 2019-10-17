@@ -48,12 +48,9 @@ permalink: "/"
       <h3>Nabízíme:</h3>
       {% for nabidka in aktuality.nabidky %}
 
-      <strong>
-        {% if nabidka.odkaz-stranka %}<a href="{{ nabidka.odkaz-stranka }}">{% endif %}
-          {{ nabidka.nazev }}
-        {% if nabidka.odkaz-stranka %}</a>{% endif %}
-      </strong></br>
+      <strong>{{ nabidka.nazev }}</strong></br>
       {{ nabidka.popis }}</br>
+      {% if nabidka.odkaz-stranka %}<a href="{{ nabidka.odkaz-stranka }}">Více informací</a></br>{% endif %}
       <i>Cena {{ nabidka.cena }},-</i>
       <hr>
       {% endfor %}
