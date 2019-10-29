@@ -128,7 +128,7 @@ permalink: "/"
 {% if cenik.zobrazit %}
 <section id="cenik" class="wrapper style{{ styleNumber }} fade-up">
   <div class="inner">
-    <h2>{{ cenik.titulek }}</h2>
+    <h2><a id="header-toggle-price">{{ cenik.titulek }}</a></h2>
     <p>{{ cenik.popis }}</p>
 
     {% if akce.zobrazit %}
