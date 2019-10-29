@@ -25,6 +25,10 @@
             {% endif %}
       	  </h1>
 
+        {% if page.image %}
+        <span class="image left"><img src="/images/{{ page.image }}" alt="" /></span>
+        {% endif %}
+
 	      {{ content }}
 
 	      <b>Vaše dotazy rády zodpovíme v kosmetice</b>
