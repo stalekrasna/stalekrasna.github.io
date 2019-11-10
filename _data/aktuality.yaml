@@ -1,7 +1,7 @@
-navigace: "Aktuální pro podzim zimu" # Text v navigaci
+navigace: "Aktuální pro podzim a zimu" # Text v navigaci
 zobrazit: true # hodnoty: true / false
 
-titulek: "Aktuální pro podzim zimu"
+titulek: "Aktuální pro podzim a zimu"
 popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
   - "je intenzivní regenerační péče, bělení a projasnění pleti, zpevnění kontur obličeje."
 
