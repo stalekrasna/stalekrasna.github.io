@@ -4,7 +4,7 @@ zobrazit: true # hodnoty: true / false
 titulek: "Kosmetická péče"
 popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
   - "V našem kosmetickém studiu používáme značkovou německou kosmetiku <strong>JANSSEN COSMECEUTICAL</strong>, kterou využívají přední kosmetické salóny."
-  - "Pracujeme s přípravky už několik let, a máme výborné zkušenosti. Zejména klientky s velmi citlivou pletí, která téměř nic nesnese, jsou mile překvapené, že ošetření kosmetikou Janssen jim nezpůsobuje podráždění pleti."
+  - "Pracujeme s přípravky už několik let a máme výborné zkušenosti. Zejména klientky s velmi citlivou pletí, která téměř nic nesnese, jsou mile překvapené, že ošetření kosmetikou Janssen jim nezpůsobuje podráždění pleti."
   - "Kosmetické ošetření lze přizpůsobit vašim finančním možnostem a požadavkům."
 
 # jednotlive zaznamy v tabulce - obsahuji nadpis, popis a ikonu (ikonu radsi nemenit)

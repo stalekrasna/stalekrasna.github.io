@@ -1,9 +1,14 @@
 zobrazit: true # hodnoty: true / false
 
-nazev: "Vážené zákaznice, vzhledem k tomu, že se zvyšuje počet pozdě rušených rezervací termínů ošeření,
-rozhodly jsme se s platností od 1.1.2020 účtovat poplatek ve výši 500,-Kč  za rezervaci zrušenou 12h a méně.
-Objednání na další ošetření bude možné až po uhrazení stanovené částky. Děkujeme za pochopení.
-"
+nazev: "Vážené zákaznice, vzhledem k nařízení vlády jsme nuceny dočasně pozastavit 
+činnost našeho studia kvůli koronavirovym opatřením. O spuštění provozu vás budeme informovat. 
+Přejeme vám pevné zdraví a těšíme se na viděnou!"
+
+
+
+#"Vážené zákaznice, vzhledem k tomu, že se zvyšuje počet pozdě rušených rezervací termínů ošeření,
+#rozhodly jsme se s platností od 1.1.2020 účtovat poplatek ve výši 500,-Kč  za rezervaci zrušenou 12h a méně.
+#Objednání na další ošetření bude možné až po uhrazení stanovené částky. Děkujeme za pochopení."
 
 
 # akce na facebooku
