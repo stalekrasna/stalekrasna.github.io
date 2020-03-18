@@ -1,26 +1,30 @@
-navigace: "Aktuální pro podzim a zimu" # Text v navigaci
+navigace: "Aktuálně" # Text v navigaci
 zobrazit: true # hodnoty: true / false
 
-titulek: "Aktuální pro podzim a zimu"
+titulek: "Aktuálně"
 popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
-  - "je intenzivní regenerační péče, bělení a projasnění pleti, zpevnění kontur obličeje."
+#  - "je intenzivní regenerační péče, bělení a projasnění pleti, zpevnění kontur obličeje." 
+   - "Milé zákaznice!
+Rády bychom vám nabídly možnost objednání a doručení vašich oblíbených produktů zn.Janssen!
+Dochází vám krém, sérum nebo jiný přípravek? Napište, zavolejte a domluvíme se na způsobu předání! 
+Jsme tu pro vás, i když se nemůžeme potkávat ve studiu :)"
 
-nabidky:
-  -
-    nazev: "Mezoterapie"
-    odkaz-stranka: "mezoterapie"
-    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži."
-    cena: "2000"
-  -
-    nazev: "Chemický peeling"
-    odkaz-stranka: "chemicky-peeling"
-    popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny…"
-    cena: "800"
-  -
-    nazev: "Radiofrekvenční lifting"
-    odkaz-stranka: "radiofrekvence"
-    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení."
-    cena: "1500"
+#nabidky:
+#  -
+#    nazev: "Mezoterapie"
+#    odkaz-stranka: "mezoterapie"
+#    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži."
+#    cena: "2000"
+#  -
+#    nazev: "Chemický peeling"
+#    odkaz-stranka: "chemicky-peeling"
+#    popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny…"
+#    cena: "800"
+#  -
+#    nazev: "Radiofrekvenční lifting"
+#    odkaz-stranka: "radiofrekvence"
+#    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení."
+#    cena: "1500"
 
 # motivace:
   #- "Nejen tyto výhodné balíčky, ale i jakékoliv ošetření můžete také věnovat někomu blízkému jako DÁREK!"
