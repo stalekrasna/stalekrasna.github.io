@@ -10,12 +10,23 @@ popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku
 # jednotlive zaznamy v tabulce - obsahuji nadpis, popis a ikonu (ikonu radsi nemenit)
 zaznamy:
   -
-    nadpis: "Základní péče"
+    nadpis: "Základní péče, ultrazvuk, dermabraze"
     popis: "Dopřát si můžete čištění pleti ultrazvukovou špachtlí, které nebolí, ani pleť nepodráždí.<br>
     Dále nabízíme celkovou péči, kdy čištění pleti doplníme kosmetickou masáží dekoltu, krku a obličeje.<br>
     <a href='zakladni-pece'>Chci se dozvědět více</a>
 "
-
+  -
+    nadpis: "Mezoterapie"
+    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži.<br>
+    <a href='mezoterapie'>Chci se dozvědět více</a>
+    "
+    
+  -
+    nadpis: "Domiderm"
+    popis: "Podstatou funkce přístroje DOMIDERM je unikátní trojkombinace pulzního magnetického pole, nízkovýkonového laseru a LED světla, která zajistí spuštění metabolických procesů vedoucích k regeneraci kožních buněk.<br>
+    <a href='domiderm'>Chci se dozvědět více</a>
+    "
+  
   -
     nadpis: "Obočí a řasy"
     popis: "Velmi využívanou doplňkovou službou je barvení obočí a řas, a také trvalá na řasy, která řasy natočí podobně jako kleště, ale řasy neničí.<br>
@@ -23,30 +34,25 @@ zaznamy:
     "
 
   -
-    nadpis: "Domiderm"
-    popis: "Podstatou funkce přístroje DOMIDERM je unikátní trojkombinace pulzního magnetického pole, nízkovýkonového laseru a LED světla, která zajistí spuštění metabolických procesů vedoucích k regeneraci kožních buněk.<br>
-    <a href='domiderm'>Chci se dozvědět více</a>
+    nadpis: "Chemický peeling"
+    popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny… <br>
+    <a href='chemicky-peeling'>Chci se dozvědět více</a>
     "
-
+    
   -
     nadpis: "Depilace"
     popis: "Samozřejmostí je depilace teplým voskem, na kterou se mohou objednat i muži. Používáme syntetické vosky, které minimalizují podráždění pleti."
 
   -
+    nadpis: "Radiofrekvenční lifting"
+    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení. <br>
+    <a href='radiofrekvence'>Chci se dozvědět více</a>
+    "
+
+  -
     nadpis: "Doplňková nabídka"
     popis: "Poradíme vám s výběrem vhodné kosmetiky pro váš typ pleti, kterou si můžete u nás rovnou zakoupit. Také nabízíme dárkové poukazy, kterými můžete potěšit své blízké, a k dostání jsou i netradiční blahopřání k různým příležitostem."
   
-  -
-    nadpis: "Mezoterapie"
-    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži.<br>
-    <a href='mezoterapie'>Chci se dozvědět více</a>"
 
-  -
-    nadpis: "Chemický peeling"
-    popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny… <br>
-    <a href='chemicky-peeling'>Chci se dozvědět více</a>"
-    
-  -
-    nadpis: "Radiofrekvenční lifting"
-    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení. <br>
-    <a href='radiofrekvence'>Chci se dozvědět více</a>"
+
+
