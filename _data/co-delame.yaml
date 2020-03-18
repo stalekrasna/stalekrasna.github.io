@@ -42,20 +42,11 @@ zaznamy:
     <a href='mezoterapie'>Chci se dozvědět více</a>"
 
   -
-    nadpis: ""
-    popis: ""
-
-#    nazev: "Mezoterapie"
-#    odkaz-stranka: "mezoterapie"
-#    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži."
-#    cena: "2000"
-#  -
-#    nazev: "Chemický peeling"
-#    odkaz-stranka: "chemicky-peeling"
-#    popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny…"
-#    cena: "800"
-#  -
-#    nazev: "Radiofrekvenční lifting"
-#    odkaz-stranka: "radiofrekvence"
-#    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení."
-#    cena: "1500"
+    nadpis: "Chemický peeling"
+    popis: "Patří k oblíbeným neinvazivním zákrokům, umí vyhladit jemné vrásky, oživit a pročistit pleť, zmírnit akné, zjemnit jizvy po akné, odstranit nebo zmírnit pigmentové skvrny… <br>
+    <a href='chemicky-peeling'>Chci se dozvědět více</a>"
+    
+  -
+    nadpis: "Radiofrekvenční lifting"
+    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení. <br>
+    <a href='radiofrekvence'>Chci se dozvědět více</a>"
