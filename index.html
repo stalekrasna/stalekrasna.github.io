@@ -94,6 +94,9 @@ permalink: "/"
           {% endfor %}
         </div>
       </div>
+      {% for ico in kdo.justice %}
+        <p>{{ ico }}</p>
+      {% endfor %}
     </div>
   </section>
   {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}

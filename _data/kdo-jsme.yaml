@@ -30,3 +30,7 @@ obrazky:
     titulek: "Studio"
     smallUrl: "images/studio-small.jpg"
     url: "images/studio-full.jpg"
+
+justice:
+  - "Iveta Kubíková,    IČ: 408 08 165"
+  - "Soňa Maroušková,   IČ: 408 05 514" 
