@@ -4,6 +4,8 @@ zobrazit: true # hodnoty: true / false
 titulek: "Ceník"
 popis: "Konečná cena za ošetření je proměnlivá, protože je složena z jednotlivých úkonů, které mohou být při každém ošetření odlišné." # popis pod titulkem nad tabulkou
 
+vop: "Všeobecné obchodní podmínky si, prosím, přečtěte <a href=vseobecne-obchodni-podminky>ZDE</a>"
+
 sloupce:
   - "Úkon"
   - "Cena"
