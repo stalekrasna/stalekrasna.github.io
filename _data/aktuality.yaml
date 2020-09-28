@@ -4,11 +4,18 @@ zobrazit: true # hodnoty: true / false
 titulek: "Aktuálně"
 popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
 #  - "je intenzivní regenerační péče, bělení a projasnění pleti, zpevnění kontur obličeje." 
-   - "Po znovuotevření studia pro vás máme připravená nová ošetření! Přijďte vyzkoušet Jarní detox nebo Energizující ošetření nabité vit C!  
-Těšit se můžete také na nové produkty k těmto řadám, a to Detox krém, detox fluid/ ampulky a 
-Superfruit Duo - krém a ampulky s vit C v limitované edici.
-Další novinky najdete u nás ve studiu a také na facebookových stránkách!"
-   - "Z důvodu uzavření kosmetiky vám prodloužíme o 2 měsíce platnost vašich dárkových poukazů!"
+   
+-   "JE TU PODZIM..."
+-   "Hlavním cílem péče o pokožku na podzim je regenerace pleti. Proto při našich ošetřeních volíme přípravky s výživnými složkami, 
+k jakým patří rostlinné kmenové buňky, kaviár nebo kolagen. Ten je ideální užívat i vnitřně.
+Je také ideální čas pro změnu lehkého hydratačního krému za krém vydatnější, který pleť ochrání při nepřízni počasí.
+Pokud máte pleť citlivou, mohou vás trápit také popraskané žilky. 
+Doporučujeme používat speciální sérum i krém na rozšířené žilky, které posilují žilní stěnu. Rádi poradíme s výběrem!
+NOVINKA v naší nabídce: "
+-   "<strong>Hydrolyzovaný Kolagen VERISOL®</strong>"
+-   "100% Hydrolyzovaný kolagen s patentovanými bioaktivními peptidy německé kvality typu VERISOL®, doplněk stravy. 
+Bioaktivní kolagenové peptidy poskytují vysoko vstřebatelnou formu kolagenu a jsou vhodné pro ženy i muže. 
+Bez přidaných chemických konzervantů a sladidel, vhodné i pro kojící ženy. Více info ve studiu."
 
 #nabidky:
 #  -
