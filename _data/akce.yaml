@@ -1,7 +1,10 @@
 zobrazit: true # hodnoty: true / false
 
-nazev: "Milé zákaznice, <strong>je tu podzim</strong>, čas na změnu a s ním naše nabídka ošetření a regenerace pleti.
+nazev: - "Milé zákaznice, <strong>je tu podzim</strong>, čas na změnu a s ním naše nabídka ošetření a regenerace pleti.
 Zároveň jsme pro vás připravili NOVINKU - Hydrolyzovaný Kolagen VERISOL®, více <a href=#aktuality>ZDE</a>."
+- "Aktualizace ke dni 10.10.
+ Kosmetické studio je stále V PROVOZU!!! Pokud bude vchod do budovy uzamčený, zvoňte nebo nám zavolejte.
+Pracujeme v respirátorech, zvýšená hygiena je samozřejmostí a věříme, že se nadále budeme potkávat."
 
 omezeni: "Vážené zákaznice, vzhledem k tomu, že se zvyšuje počet pozdě rušených rezervací termínů ošeření,
 rozhodly jsme se s platností od 1.1.2020 účtovat poplatek ve výši 500,-Kč za rezervaci zrušenou 12h a méně.
