@@ -13,189 +13,56 @@ sloupce:
   - "Cena"
 zaznamy:
   -
-    nazev: "<strong>Regenerační, hydratační péče</strong><br>/odlíčení pleti, peeling, čištění pleti, aplikace séra, ošetření laser+LED světlo, masáž obličeje, krku a dekoltu, aplikace masky, závěrečná péče/"
-    cena: "1.100,- <b>-</b> 1.400,-"
+    nazev:  "<strong>Regenerační, hydratační péče</strong>
+            <br>/odlíčení pleti, peeling, čištění pleti, aplikace séra, ošetření laser+LED světlo, masáž obličeje, krku a dekoltu, aplikace masky, závěrečná péče/
+            <br><em>Délka ošetření: 90 min.</em>"
+    cena:   "1.100,- - 1.400,-"
   -
-    nazev: "Peeling"
-    cena: "80,-"
+    nazev:  "<strong>Čištění pleti</strong>
+            <br>/odlíčení pleti, peeling, hloubkové čištění pleti do 15 min., aplikace séra, ošetření laser+LED světlo, aplikace masky, závěrečná péče/
+            <br><em>Délka ošetření: 75 min.</em>"
+    cena:   "890,-"
   -
-    nazev: "Aplikace ampulky nebo séra"
-    cena: "60,-"
+    nazev:  "Navíc kosmetická masáž"
+    cena:   "340,-"
+  -  
+    nazev:  "<strong>Speciální, sezónní ošetření</strong> dle nabídky, typu a potřeb pleti
+            <br>/odlíčení pleti, peeling, aplikace séra a masky, masáž obličeje, krku a dekoltu/
+            <br><em>Délka ošetření: 60-70 min.</em>"
+    cena:   "1.150,-"
   -
-    nazev: "Závěrečné ošetření pleti"
-    cena: "95,-"
+    nazev:  "<strong>Základní ošetření</strong>
+            <br>/odlíčení pleti, peeling, masáž a aplikace masky/
+            <br><em>Délka ošetření: 60 min.</em>"
+    cena:   "790,-"
   -
-    nazev: "Úprava obočí při kosmetice/samostatně"
+    nazev:  "Doplňující ošetření, která se připočítávají:"
   -
-    nazev: "5min"
-    cena: "50,-/70,-"
+    nazev:  "Úprava obočí"
+    cena:   "50,- - 200,-"
   -
-    nazev: "10min"
-    cena: "70,-/95,-"
+    nazev:  "Barvení obočí"
+    cena:   "90,-"
   -
-    nazev: "15min"
-    cena: "95,-/120,-"
+    nazev:  "Barvení řas"
+    cena:   "120,-"
   -
-    nazev: "20min"
-    cena: "120,-/145,-"
+    nazev:  "Depilace v obličeji"
+    cena:   "100,- - 250,-"
   -
-    nazev: "25min"
-    cena: "140,-/170,-"
+    nazev:  "Úkony samostatně:"
   -
-    nazev: "Použití vosku"
-    cena: "30,-"
+    nazev:  "Úprava + barvení obočí"
+    cena:   "200,- - 300,-"
   -
-    nazev: "Hluboké čištění pleti"
+    nazev:  "Barvení obočí a řas"
+    cena:   "300,-"
   -
-    nazev: "5min"
-    cena: "80,-"
+    nazev:  "Barvení řas"
+    cena:   "200,-"
   -
-    nazev: "10min"
-    cena: "105,-"
+    nazev:  "Trvalá na řasy + barvení"
+    cena:   "630,-"
   -
-    nazev: "15min"
-    cena: "140,-"
-  -
-    nazev: "20min"
-    cena: "180,-"
-  -
-    nazev: "25min"
-    cena: "200,-"
-  -
-    nazev: "Masáže"
-  -
-    nazev: "Obličeje a krku"
-    cena: "185,-"
-  -
-    nazev: "Obličeje, krku a dekoltu"
-    cena: "235,-"
-  -
-    nazev: "Aplikace masky"
-  -
-    nazev: "Krémová, gelová"
-    cena: "180,-"
-  -
-    nazev: "Krémová bez dekoltu"
-    cena: "160,-"
-  -
-    nazev: "Pudrová"
-    cena: "235,-"
-  -
-    nazev: "Pudrová bez dekoltu"
-    cena: "215,-"
-  -
-    nazev: "Textilní"
-    cena: "285,-"
-  -
-    nazev: "Kolagenová"
-    cena: "365,-"
-  -
-    nazev: "Kolagenová bez dekoltu"
-    cena: "345,-"
-  -
-    nazev: "Ošetření očí"
-  -
-    nazev: "Mikromasáž"
-    cena: "100,-"
-  -
-    nazev: "Aplikace masky"
-    cena: "80,-"
-  -
-    nazev: "Barvení"
-  -
-    nazev: "Řasy a obočí při kosmetice a trvalé"
-    cena: "90,-"
-  -
-    nazev: "Řasy a obočí samostatně, 1 úkon"
-    cena: "150,-"
-  -
-    nazev: "Řasy a obočí samostatně, 2 úkony"
-    cena: "250,-"
-  -
-    nazev: "Trvalá na řasy"
-    cena: "450,-"
-  -
-    nazev: "Ošetření zad"
-  -
-    nazev: "Očištění a použití tonika"
-    cena: "80,-"
-  -
-    nazev: "Enzymatický peeling"
-    cena: "120,-"
-  -
-    nazev: "Aplikace masky na celá záda"
-    cena: "210,-"
-  -
-    nazev: "Aplikace masky na polovinu zad"
-    cena: "175,-"
-  -
-    nazev: "Aplikace séra"
-    cena: "80,-"
-  -
-    nazev: "Depilace"
-  -
-    nazev: "Horní ret či brada při ošetření"
-    cena: "90,-"
-  -
-    nazev: "Horní ret či brada samostatně"
-    cena: "120,-"
-  -
-    nazev: "Horní ret, brada a tváře"
-    cena: "250,-"
-  -
-    nazev: "Tváře při ošetření"
-    cena: "115,-"
-  -
-    nazev: "Tváře samostatně"
-    cena: "140,-"
-  -
-    nazev: "Podpaží"
-    cena: "140,-"
-  -
-    nazev: "Třísla - malá část"
-    cena: "160,-"
-  -
-    nazev: "Třísla - velká část"
-    cena: "220,-"
-  -
-    nazev: "Nohy po kolena"
-    cena: "280,-"
-  -
-    nazev: "Nohy celé"
-    cena: "550,-"
-  -
-    nazev: "Stehna"
-    cena: "320,-"
-  -
-    nazev: "Zadní část stehen"
-    cena: "120,- až 160,-"
-  -
-    nazev: "Hýždě"
-    cena: "150,-"
-  -
-    nazev: "Ruce celé"
-    cena: "300,-"
-  -
-    nazev: "Předloktí"
-    cena: "200,-"
-  -
-    nazev: "Záda"
-    cena: "500,-"
-  -
-    nazev: "Hrudník"
-    cena: "250,-"
-  -
-    nazev: "Dermabraze"
-    cena: "1150-1350,-"
-  -
-    nazev: "Mezoterapie"
-    cena: "2000,- / ošetření"
-  -
-    nazev: "Chemický peeling"
-    cena: "800,- / ošetření"
-  -
-    nazev: "Chemický peeling - permanentka 5+1"
-    cena: "4000,-"
-  -
-    nazev: "Radiofrekvenční lifting"
-    cena: "1500,- / ošetření"
+    nazev:  "Kosmetická masáž"
+    cena:   "450,-"
