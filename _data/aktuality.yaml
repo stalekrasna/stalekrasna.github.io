@@ -1,13 +1,13 @@
 navigace: "Aktuálně" # Text v navigaci
-zobrazit: true # hodnoty: true / false
+zobrazit: false # hodnoty: true / false
 
 titulek: "Aktuálně"
 popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
 
-- "Naskladnily jsme pro vás limitované edice vánočních dárkových sad, nočních masek, kolagenové krémy a jako každý rok ampulkové adventní kalendáře. Přijďte si pro ně!
-<br>V listopadu budeme stále nabízet kolagenové ošetření, které je také pouze v limitované podzimní edici. Rozhodně stojí za vyzkoušení!
-<br>A nezapomeňťe, že nastal ideální čas pro chemické peelingy! 
-<br>Těšíme se na viděnou!"
+#- "Naskladnily jsme pro vás limitované edice vánočních dárkových sad, nočních masek, kolagenové krémy a jako každý rok ampulkové adventní kalendáře. Přijďte si pro ně!
+#<br>V listopadu budeme stále nabízet kolagenové ošetření, které je také pouze v limitované podzimní edici. Rozhodně stojí za vyzkoušení!
+#<br>A nezapomeňťe, že nastal ideální čas pro chemické peelingy!
+#<br>Těšíme se na viděnou!"
 
 #  - "je intenzivní regenerační péče, bělení a projasnění pleti, zpevnění kontur obličeje." 
    
