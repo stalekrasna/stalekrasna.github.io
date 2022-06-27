@@ -6,7 +6,7 @@ popis: "Konečná cena za ošetření je proměnlivá, protože je složena z je
 
 vop: "Všeobecné obchodní podmínky si, prosím, přečtěte <a href=vseobecne-obchodni-podminky><b>ZDE</b></a>"
 
-aktualni-verze: "Ceník platný od května 2021:"
+aktualni-verze: "Ceník platný od června 2022:"
 
 sloupce:
   - "Úkon"
@@ -16,7 +16,7 @@ zaznamy:
     nazev:  "<strong>Regenerační, hydratační péče</strong>
             <br>/odlíčení pleti, peeling, čištění pleti, aplikace séra, ošetření laser+LED světlo, masáž obličeje, krku a dekoltu, aplikace masky, závěrečná péče/
             <br><em>Délka ošetření: 90 min.</em>"
-    cena:   "1.150,- - 1.400,-"
+    cena:   "1.200,- - 1.450,-"
   -
     nazev:  "<strong>Čištění pleti</strong>
             <br>/odlíčení pleti, peeling, hloubkové čištění pleti do 15 min., aplikace séra, ošetření laser+LED světlo, aplikace masky, závěrečná péče/
@@ -39,7 +39,7 @@ zaznamy:
     nazev:  "Doplňující ošetření, která se připočítávají:"
   -
     nazev:  "Úprava obočí"
-    cena:   "50,- - 200,-"
+    cena:   "150,- - 250,-"
   -
     nazev:  "Barvení obočí"
     cena:   "100,-"
@@ -53,16 +53,16 @@ zaznamy:
     nazev:  "Úkony samostatně:"
   -
     nazev:  "Úprava + barvení obočí"
-    cena:   "200,- - 300,-"
+    cena:   "300,-"
   -
-    nazev:  "Barvení obočí a řas"
-    cena:   "400,-"
+    nazev:  "Barvení obočí a řas, vč. úpravy obočí"
+    cena:   "480,-"
   -
     nazev:  "Barvení řas"
     cena:   "300,-"
   -
-    nazev:  "Trvalá na řasy + barvení"
-    cena:   "650,-"
+    nazev:  "Trvalá na řasy"
+    cena:   "600,-"
   -
     nazev:  "Kosmetická masáž"
     cena:   "450,-"
