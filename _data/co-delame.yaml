@@ -4,8 +4,8 @@ zobrazit: true # hodnoty: true / false
 titulek: "Kosmetická péče"
 popisky: # popisky mohou obsahovat vice odstavcu - novy odstavec na dalsim radku s pomlckou
   - "V našem kosmetickém studiu používáme značkovou německou kosmetiku <strong>JANSSEN COSMECEUTICAL</strong>, kterou využívají přední kosmetické salóny."
-  - "Pracujeme s přípravky už několik let a máme výborné zkušenosti. Zejména klientky s velmi citlivou pletí, která téměř nic nesnese, jsou mile překvapené, že ošetření kosmetikou Janssen jim nezpůsobuje podráždění pleti."
-  - "Kosmetické ošetření lze přizpůsobit vašim finančním možnostem a požadavkům."
+  - "Pracujeme s přípravky už několik let a máme výborné zkušenosti. Zejména klientky s velmi citlivou pletí, která téměř nic nesnese, jsou mile překvapené, že péče kosmetikou Janssen jim nezpůsobuje podráždění pleti."
+  - "Kosmetickou péči lze přizpůsobit vašim finančním možnostem a požadavkům."
 
 # jednotlive zaznamy v tabulce - obsahuji nadpis, popis a ikonu (ikonu radsi nemenit)
 zaznamy:
@@ -15,11 +15,11 @@ zaznamy:
     Dále nabízíme celkovou péči, kdy čištění pleti doplníme kosmetickou masáží dekoltu, krku a obličeje.<br>
     <a href='zakladni-pece'>Chci se dozvědět více</a>
 "
-  -
-    nadpis: "Mezoterapie"
-    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži.<br>
-    <a href='mezoterapie'>Chci se dozvědět více</a>
-    "
+#  -
+#    nadpis: "Mezoterapie"
+#    popis: "Mikrojehličková terapie Dermapenem, neboli microneedling, je nová a vysoce účinná metoda, která stimuluje v pokožce tvorbu vlastního kolagenu a spouští omlazující procesy v kůži.<br>
+#    <a href='mezoterapie'>Chci se dozvědět více</a>
+#    "
     
   -
     nadpis: "Domiderm"
@@ -43,11 +43,11 @@ zaznamy:
     nadpis: "Depilace"
     popis: "Samozřejmostí je depilace teplým voskem, na kterou se mohou objednat i muži. Používáme syntetické vosky, které minimalizují podráždění pleti."
 
-  -
-    nadpis: "Radiofrekvenční lifting"
-    popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení. <br>
-    <a href='radiofrekvence'>Chci se dozvědět více</a>
-    "
+ # -
+ #   nadpis: "Radiofrekvenční lifting"
+ #   popis: "Jedná se o neinvazivní (přístrojový) lifting s podtlakem a chlazením. Thermální lifting je novou generací metody omlazení. <br>
+ #   <a href='radiofrekvence'>Chci se dozvědět více</a>
+ #   "
 
   -
     nadpis: "Doplňková nabídka"

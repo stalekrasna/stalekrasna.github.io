@@ -10,120 +10,121 @@ permalink: "/"
 {% assign uvod = site.data.uvod %}
 {% assign kontakty = site.data.kontakty %}
 {% if uvod.zobrazit %}
-  <section id="uvod" class="wrapper style{{ styleNumber }} fullscreen fade-up">
-    <div class="inner">
-      <h1>{{ uvod.titulek }}</h1>
-      <p>{{ uvod.popis }}</p>
-      {% if akce.zobrazit %}
-        <p><strong>{{ akce.nazev }}</strong></p>
+<section id="uvod" class="wrapper style{{ styleNumber }} fullscreen fade-up">
+  <div class="inner">
+    <h1>{{ uvod.titulek }}</h1>
+    <p>{{ uvod.popis }}</p>
+    {% if akce.zobrazit %}
+    <p><strong>{{ akce.nazev }}</strong></p>
+    {% endif %}
+    {% if akce.akce-naleznete and akce.na-facebooku %}
+    <p>{{ akce.akce-naleznete }}
+      {% if kontakty.facebook %}
+      <a href="{{ kontakty.facebook }}">
+        {% endif %}
+        {{ akce.na-facebooku }}
+        {% if kontakty.facebook %}
+      </a>
       {% endif %}
-      {% if akce.akce-naleznete and akce.na-facebooku %}
-        <p>{{ akce.akce-naleznete }}
-          {% if kontakty.facebook %}
-          <a href="{{ kontakty.facebook }}">
-          {% endif %}
-            {{ akce.na-facebooku }}
-          {% if kontakty.facebook %}
-          </a>
-          {% endif %}
-        </p>
-      {% endif %}
-    </div>
-  </section>
+    </p>
+    {% endif %}
+  </div>
+</section>
 
-  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+{% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
 <!-- Aktuality -->
 {% assign aktuality = site.data.aktuality %}
 {% if aktuality.zobrazit %}
-  <section id="aktuality" class="wrapper style{{ styleNumber }} fade-up">
-    <div class="inner">
-      <h2>{{ aktuality.titulek }}</h2>
-      {% for popisek in aktuality.popisky %}
-        <p>{{ popisek }}</p>
-      {% endfor %}
+<section id="aktuality" class="wrapper style{{ styleNumber }} fade-up">
+  <div class="inner">
+    <h2>{{ aktuality.titulek }}</h2>
+    {% for popisek in aktuality.popisky %}
+    <p>{{ popisek }}</p>
+    {% endfor %}
 
-      <!-- Nabidka -->
-  <!--    <h3>Nabízíme:</h3>   -->    <!-- TOHLE PAK ODKOMENTOVAT -->
-      {% for nabidka in aktuality.nabidky %}
+    <!-- Nabidka -->
+    <!--    <h3>Nabízíme:</h3>   -->
+    <!-- TOHLE PAK ODKOMENTOVAT -->
+    {% for nabidka in aktuality.nabidky %}
 
-      <strong>{{ nabidka.nazev }}</strong></br>
-      {{ nabidka.popis }}</br>
-      {% if nabidka.odkaz-stranka %}<a href="{{ nabidka.odkaz-stranka }}">Více informací</a></br>{% endif %}
-      <i>Cena {{ nabidka.cena }},-</i>
-      <hr>
-      {% endfor %}
+    <strong>{{ nabidka.nazev }}</strong></br>
+    {{ nabidka.popis }}</br>
+    {% if nabidka.odkaz-stranka %}<a href="{{ nabidka.odkaz-stranka }}">Více informací</a></br>{% endif %}
+    <i>Cena {{ nabidka.cena }},-</i>
+    <hr>
+    {% endfor %}
 
-      <!-- Info -->
+    <!-- Info -->
 
-      {% for motivace in aktuality.motivace %}
-      <b>{{ motivace }}</b><br>
-      {% endfor %}
+    {% for motivace in aktuality.motivace %}
+    <b>{{ motivace }}</b><br>
+    {% endfor %}
 
-    </div>
-  </section>
+  </div>
+</section>
 
-  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+{% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
 <!-- Kdo jsme -->
 {% assign kdo = site.data.kdo-jsme %}
 {% if kdo.zobrazit %}
-  <section id="kdo-jsme" class="wrapper style{{ styleNumber }} fade-up">
-    <div class="inner">
-      <h2>{{ kdo.titulek }}</h2>
-      {% for popisek in kdo.popisky %}
-        <p>{{ popisek }}</p>
-      {% endfor %}
-      <div class="box alt">
-        <div class="row uniform">
-          {% assign pictureCount = 1 %}
-          {% for obrazek in kdo.obrazky %}
-            <div class="4u{% if pictureCount == 3%}${% endif %}">
-              <span class="image fit">
-                <a href="{{ obrazek.url }}" data-lightbox="kdo-jsme" data-title="{{ obrazek.titulek }}">
-                  <img src="{{ obrazek.smallUrl }}" alt="" />
-                </a>
-                {% if obrazek.titulek %}
-                <span>{{ obrazek.titulek }}</span>
-                {% endif %}
-              </span>
-            </div>
-            {% assign pictureCount = pictureCount | modulo: 3 | plus: 1 %}
-          {% endfor %}
+<section id="kdo-jsme" class="wrapper style{{ styleNumber }} fade-up">
+  <div class="inner">
+    <h2>{{ kdo.titulek }}</h2>
+    {% for popisek in kdo.popisky %}
+    <p>{{ popisek }}</p>
+    {% endfor %}
+    <div class="box alt">
+      <div class="row uniform">
+        {% assign pictureCount = 1 %}
+        {% for obrazek in kdo.obrazky %}
+        <div class="4u{% if pictureCount == 3%}${% endif %}">
+          <span class="image fit">
+            <a href="{{ obrazek.url }}" data-lightbox="kdo-jsme" data-title="{{ obrazek.titulek }}">
+              <img src="{{ obrazek.smallUrl }}" alt="" />
+            </a>
+            {% if obrazek.titulek %}
+            <span>{{ obrazek.titulek }}</span>
+            {% endif %}
+          </span>
         </div>
+        {% assign pictureCount = pictureCount | modulo: 3 | plus: 1 %}
+        {% endfor %}
       </div>
-      {% for ico in kdo.justice %}
-        <p>{{ ico }}</p>
-      {% endfor %}
     </div>
-  </section>
-  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+    {% for ico in kdo.justice %}
+    <p>{{ ico }}</p>
+    {% endfor %}
+  </div>
+</section>
+{% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
 <!-- Co delame -->
 {% assign co = site.data.co-delame %}
 {% if co.zobrazit %}
-  <section id="co-delame" class="wrapper style{{ styleNumber }} fade-up">
-    <div class="inner">
-      <h2>{{ co.titulek }}</h2>
-      {% for popisek in co.popisky %}
-        <p>{{ popisek }}</p>
+<section id="co-delame" class="wrapper style{{ styleNumber }} fade-up">
+  <div class="inner">
+    <h2>{{ co.titulek }}</h2>
+    {% for popisek in co.popisky %}
+    <p>{{ popisek }}</p>
+    {% endfor %}
+
+    <div class="features">
+      {% for zaznam in co.zaznamy %}
+      <section>
+        <h3>{{ zaznam.nadpis }}</h3>
+        <p>{{ zaznam.popis }}</p>
+      </section>
       {% endfor %}
-
-      <div class="features">
-        {% for zaznam in co.zaznamy %}
-          <section>
-            <h3>{{ zaznam.nadpis }}</h3>
-            <p>{{ zaznam.popis }}</p>
-          </section>
-        {% endfor %}
-      </div>
-
     </div>
-  </section>
-  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+
+  </div>
+</section>
+{% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
 <!-- Ceník -->
@@ -135,28 +136,28 @@ permalink: "/"
     <p>{{ cenik.popis }}</p>
 
     {% if akce.zobrazit %}
-      <p><strong>{{ akce.omezeni }}</strong></p>
+    <p><strong>{{ akce.omezeni }}</strong></p>
     {% endif %}
     <p>{{ cenik.vop }}</p>
     {% if akce.akce-naleznete and akce.na-facebooku %}
-      <p><strong>{{ akce.akce-naleznete }}
+    <p><strong>{{ akce.akce-naleznete }}
         {% if kontakty.facebook %}
         <a href="{{ kontakty.facebook }}">
-        {% endif %}
+          {% endif %}
           {{ akce.na-facebooku }}
-        {% if kontakty.facebook %}
+          {% if kontakty.facebook %}
         </a>
         {% endif %}
       </strong></p>
     {% endif %}
 
     <div id="table-price" class="table-wrapper">
-    <h3 align="center">{{ cenik.aktualni-verze }}</h3>
+      <h3 align="center">{{ cenik.aktualni-verze }}</h3>
       <table>
         <thead>
           <tr>
             {% for sloupec in cenik.sloupce %}
-              <th>{{ sloupec }}</th>
+            <th>{{ sloupec }}</th>
             {% endfor %}
           </tr>
         </thead>
@@ -164,11 +165,11 @@ permalink: "/"
           {% for zaznam in cenik.zaznamy %}
           <tr>
             {% if zaznam.cena %}
-              <td>{{ zaznam.nazev }}</td>
-              <td class="shrink">{{ zaznam.cena }}</td>
+            <td>{{ zaznam.nazev }}</td>
+            <td class="shrink">{{ zaznam.cena }}</td>
             {% else %}
-              <th class="subheader" colspan="2">{{ zaznam.nazev }}</td>
-            {% endif %}
+            <th class="subheader" colspan="2">{{ zaznam.nazev }}</td>
+              {% endif %}
           </tr>
           {% endfor %}
         </tbody>
@@ -177,8 +178,8 @@ permalink: "/"
     <a id="toggle-price" class="button">Zobrazit</a>
   </div>
 
-  </section>
-  {% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
+</section>
+{% assign styleNumber = styleNumber | modulo: 3 | plus: 1 %}
 {% endif %}
 
 <!-- Kontakty -->
@@ -203,28 +204,28 @@ permalink: "/"
             <span>{{ kontakty.oteviraci-doba }}</span>
           </li>
           <li>
-            <h3>Email</h3>
+            <h3>E-mail</h3>
             <a href="mailto:{{ kontakty.email }}">{{ kontakty.email }}</a>
           </li>
           <li>
             <h3>Telefon</h3>
             <span>{{ kontakty.telefon }}</span>
           </li>
-           <li>
+          <li>
             <h3>IČO</h3>
             <span>{{ kontakty.justice }}</span>
           </li>
           <li>
-            <h3>Sociální služby</h3>
+            <h3>Sociální sítě</h3>
             <ul class="icons">
               {% if kontakty.facebook %}
-                <li><a href="{{ kontakty.facebook }}" class="fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="{{ kontakty.facebook }}" class="fa-facebook"><span class="label">Facebook</span></a></li>
               {% endif %}
               {% if kontakty.twitter %}
-                <li><a href="{{ kontakty.twitter }}" class="fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="{{ kontakty.twitter }}" class="fa-twitter"><span class="label">Twitter</span></a></li>
               {% endif %}
               {% if kontakty.instagram %}
-                <li><a href="{{ kontakty.instagram }}" class="fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="{{ kontakty.instagram }}" class="fa-instagram"><span class="label">Instagram</span></a></li>
               {% endif %}
             </ul>
           </li>

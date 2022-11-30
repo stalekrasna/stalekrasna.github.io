@@ -1,16 +1,17 @@
 zobrazit: true # hodnoty: true / false
 
-nazev_2: "Milé zákaznice, <strong>je tu podzim</strong>, čas na změnu a s ním naše nabídka ošetření a regenerace pleti.
+nazev_2: "Milé zákaznice, <strong>je tu podzim</strong>, čas na změnu a s ním naše nabídka regenerace a péče o pleť.
 Zároveň jsme pro vás připravili NOVINKU - Hydrolyzovaný Kolagen VERISOL®, více <a href=#aktuality>ZDE</a>."
 
 nazev_3: "Milé zákaznice a zákazníci, od pondělí 3.5.2021 můžeme naše studio opět otevřít! <br>
 Pište a volejte si pro termíny, moc se na vás těšíme!"
 
 omezeni: "Vážené zákaznice, vzhledem k tomu, že se zvyšuje počet pozdě rušených rezervací termínů ošeření,
-rozhodly jsme se s platností od 1.1.2020 účtovat poplatek ve výši 500,-Kč za rezervaci zrušenou 12h a méně.
-Objednání na další ošetření bude možné až po uhrazení stanovené částky. Děkujeme za pochopení."
+rozhodly jsme se s platností od 1.1.2020 účtovat poplatek ve výši 500,- Kč za rezervaci zrušenou 12 h a méně.
+Objednání na další kosmetickou péči bude možné až po uhrazení stanovené částky. Děkujeme za pochopení."
 
 
 # akce na facebooku
 akce-naleznete: "Veškeré novinky, akční nabídky a slevové akce naleznete na našich "
-na-facebooku: "facebookových stránkách."
+na-facebooku: "facebookových stránkách "
+na-instagramu: "a instagramu."

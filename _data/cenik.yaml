@@ -2,7 +2,7 @@ navigace: "Ceník" # Text v navigaci
 zobrazit: true # hodnoty: true / false
 
 titulek: "Ceník"
-popis: "Konečná cena za ošetření je proměnlivá, protože je složena z jednotlivých úkonů, které mohou být při každém ošetření odlišné." # popis pod titulkem nad tabulkou
+popis: "Konečná cena za péči je proměnlivá, protože je složena z jednotlivých úkonů, které mohou být při každé návštěvě odlišné." # popis pod titulkem nad tabulkou
 
 vop: "Všeobecné obchodní podmínky si, prosím, přečtěte <a href=vseobecne-obchodni-podminky><b>ZDE</b></a>"
 
@@ -14,29 +14,29 @@ sloupce:
 zaznamy:
   -
     nazev:  "<strong>Regenerační, hydratační péče</strong>
-            <br>/odlíčení pleti, peeling, čištění pleti, aplikace séra, ošetření laser+LED světlo, masáž obličeje, krku a dekoltu, aplikace masky, závěrečná péče/
-            <br><em>Délka ošetření: 90 min.</em>"
+            <br>/odlíčení pleti, peeling, čištění pleti, aplikace séra, péče laser+LED světlem, masáž obličeje, krku a dekoltu, aplikace masky, závěrečná péče/
+            <br><em>Délka péče: 90 min.</em>"
     cena:   "1.200,- - 1.450,-"
   -
     nazev:  "<strong>Čištění pleti</strong>
-            <br>/odlíčení pleti, peeling, hloubkové čištění pleti do 15 min., aplikace séra, ošetření laser+LED světlo, aplikace masky, závěrečná péče/
-            <br><em>Délka ošetření: 75 min.</em>"
+            <br>/odlíčení pleti, peeling, hloubkové čištění pleti do 15 min., aplikace séra, péče laser+LED světlem, aplikace masky, závěrečná péče/
+            <br><em>Délka péče: 75 min.</em>"
     cena:   "od 950,-"
   -
     nazev:  "Navíc kosmetická masáž"
     cena:   "340,-"
   -  
-    nazev:  "<strong>Speciální, sezónní ošetření</strong> dle nabídky, typu a potřeb pleti
+    nazev:  "<strong>Speciální, sezónní péče</strong> dle nabídky, typu a potřeb pleti
             <br>/odlíčení pleti, peeling, aplikace séra a masky, masáž obličeje, krku a dekoltu/
-            <br><em>Délka ošetření: 60-70 min.</em>"
+            <br><em>Délka péče: 60-70 min.</em>"
     cena:   "od 1.250,-"
   -
-    nazev:  "<strong>Základní ošetření</strong>
+    nazev:  "<strong>Základní péče</strong>
             <br>/odlíčení pleti, peeling, masáž a aplikace masky/
-            <br><em>Délka ošetření: 60 min.</em>"
+            <br><em>Délka péče: 60 min.</em>"
     cena:   "1.050,-"
   -
-    nazev:  "Doplňující ošetření, která se připočítávají:"
+    nazev:  "Doplňující kosmetika, která se připočítává:"
   -
     nazev:  "Úprava obočí"
     cena:   "150,- - 250,-"
