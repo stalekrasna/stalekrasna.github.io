@@ -138,6 +138,7 @@ permalink: "/"
 <section id="cenik" class="wrapper style{{ styleNumber }} fade-up">
   <div class="inner">
     <h2><a id="header-toggle-price">{{ cenik.titulek }}</a></h2>
+    <a id="toggle-price" class="button">Zobrazit</a>
     <p>{{ cenik.popis }}</p>
 
     {% if akce.zobrazit %}
@@ -151,6 +152,11 @@ permalink: "/"
           {% endif %}
           {{ akce.na-facebooku }}
           {% if kontakty.facebook %}
+        </a>
+        <a href="{{ kontakty.instagram }}">
+          {% endif %}
+          {{ akce.na-instagramu }}
+          {% if kontakty.instagram %}
         </a>
         {% endif %}
       </strong></p>
@@ -180,7 +186,7 @@ permalink: "/"
         </tbody>
       </table>
     </div>
-    <a id="toggle-price" class="button">Zobrazit</a>
+
   </div>
 
 </section>
