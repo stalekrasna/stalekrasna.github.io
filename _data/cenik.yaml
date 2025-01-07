@@ -6,7 +6,7 @@ popis: "Konečná cena za péči je proměnlivá, protože je složena z jednotl
 
 vop: "Všeobecné obchodní podmínky si, prosím, přečtěte <a href=vseobecne-obchodni-podminky><b>ZDE</b></a>"
 
-aktualni-verze: "Ceník platný od května 2022:"
+aktualni-verze: "Ceník platný od ledna 2025:"
 
 sloupce:
   - "Úkon"
@@ -14,14 +14,14 @@ sloupce:
 zaznamy:
   -
     nazev:  "<strong>Regenerační, hydratační péče</strong>
-            <br>/odlíčení pleti, peeling, čištění pleti, aplikace séra, péče laser+LED světlem, masáž obličeje, krku a dekoltu, aplikace masky, závěrečná péče/
+            <br>/odlíčení pleti, peeling, čištění pleti, aplikace séra, použití ultrazvuku, iontoforésa, masáž obličeje, krku a dekoltu, aplikace masky, závěrečná péče/
             <br><em>Délka péče: 90 min.</em>"
-    cena:   "1.340,- - 1.630,-"
+    cena:   "1.350,- - 1.650,-"
   -
     nazev:  "<strong>Čištění pleti</strong>
-            <br>/odlíčení pleti, peeling, hloubkové čištění pleti do 15 min., aplikace séra, péče laser+LED světlem, aplikace masky, závěrečná péče/
+            <br>/odlíčení pleti, peeling, hloubkové čištění pleti do 15 min., aplikace séra, použití ultrazvuku, iontoforésa, aplikace masky, závěrečná péče/
             <br><em>Délka péče: 75 min.</em>"
-    cena:   "od 1.100,-"
+    cena:   "od 1.150,-"
   -
     nazev:  "Navíc kosmetická masáž"
     cena:   "340,-"
@@ -34,7 +34,10 @@ zaznamy:
     nazev:  "<strong>Základní péče</strong>
             <br>/odlíčení pleti, peeling, masáž a aplikace masky/
             <br><em>Délka péče: 60 min.</em>"
-    cena:   "od 1.180,-"
+    cena:   "od 1.200,-"
+  -
+    nazev:  "<strong>Chemický peeling</strong>"
+    cena:   "1.150,-"
   -
     nazev:  "Doplňující kosmetika, která se připočítává:"
   -
@@ -53,13 +56,13 @@ zaznamy:
     nazev:  "Úkony samostatně:"
   -
     nazev:  "Úprava + barvení obočí"
-    cena:   "300,-"
+    cena:   "od 350,-"
   -
     nazev:  "Barvení obočí a řas, vč. úpravy obočí"
-    cena:   "480,-"
+    cena:   "od 580,-"
   -
     nazev:  "Barvení řas"
-    cena:   "300,-"
+    cena:   "350,-"
   -
     nazev:  "Trvalá na řasy"
     cena:   "600,-"
